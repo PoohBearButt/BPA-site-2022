@@ -1,0 +1,50 @@
+body{
+    max-width: 700 px;
+    margin: 0 auto;
+    padding: 2em 2em 2em 2em;
+    background-color: #435805;
+}
+
+header {
+    background-color: azure;
+}
+
+footer{
+    background-color: azure;
+}
+
+nav{
+    font-family: ;
+    align-content: center;
+    color: beige;
+}
+
+/*a {
+    font-size: 17;
+    color:beige;
+}*/
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: #aaaaaa;
+}
+
+h4{
+    color: #aaaaaa;
+}
+
+h5{
+    color: #aaaaaa;
+}
+
+p {
+    color: #8f9e37;
+}
+
