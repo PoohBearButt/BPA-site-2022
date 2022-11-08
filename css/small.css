@@ -6,6 +6,8 @@ body{
 }
 
 header {
+    display: flex;
+    align-items: center;
     background-color: azure;
 }
 
@@ -14,7 +16,7 @@ footer{
 }
 
 nav{
-    font-family: ;
+    /*font-family: ;*/
     align-content: center;
     color: beige;
 }
@@ -47,4 +49,3 @@ h5{
 p {
     color: #8f9e37;
 }
-
