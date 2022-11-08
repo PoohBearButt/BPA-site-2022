@@ -1,3 +1,11 @@
+/*color pallet
+#e8e9f3
+#cecece
+#272635
+#b1e5f2
+#347fc4
+*/
+
 body{
     max-width: 700 px;
     margin: 0 auto;
@@ -9,6 +17,37 @@ header {
     display: flex;
     align-items: center;
     background-color: azure;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: 50px;
+    height: 100px;
+}
+
+img{
+    margin: auto auto auto auto;
+}
+
+
+ul{
+    list-style: none;
+    marker: none;
+}
+li{
+    margin: 1em 1em 1em 1em;
+}
+
+/*a{
+    text-decoration: none;
+}*/
+
+a:hover{
+    color: #347fc4;
+    background-color: #272635;
+    margin: 1em 1em 1em 1em; 
+}
+
+a:visited{
+    color: blueviolet;
 }
 
 footer{
@@ -35,17 +74,17 @@ h2{
 }
 
 h3{
-    color: #aaaaaa;
+    color: black;
 }
 
 h4{
-    color: #aaaaaa;
+    color: black;
 }
 
 h5{
-    color: #aaaaaa;
+    color: black;
 }
 
 p {
-    color: #8f9e37;
+    color: black;
 }
