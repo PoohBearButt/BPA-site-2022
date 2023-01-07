@@ -1,0 +1,40 @@
+/* contact us */
+header{
+    display: flex;
+}
+header a{
+    text-decoration: none;
+}
+body h1{
+    font-size: 3rem;
+    text-align: center;
+}
+fieldset{
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+label{
+    font-size: 1.3rem;
+    display: block;
+}
+input{
+    display: block;
+    margin-bottom: 30px;
+    padding: 3px;
+}
+select{
+    display: block;
+    margin-bottom: 30px;
+    padding: 3px;
+}
+#description{
+    width: 400px;
+    height: 200px;
+}
+#submitbtn{
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
