@@ -55,10 +55,6 @@ a:hover {
     margin: 1em 1em 1em 1em;
 }
 
-a:visited {
-    color: blueviolet;
-}
-
 footer {
     background-color: azure;
     display: flex;
@@ -101,53 +97,7 @@ p {
     color: black;
 }
 
-/* Medium size screen*/
-@media only screen and (max-width: 40rem) {
-}
 
-/*the following will need to be fixed to switch out with the smaller screens*/
-/*Large size screen*/
-@media only screen and (max-width: 64rem) {
-/*Header css*/
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0;
-    text-align: center;
-    justify-content: center;
-    align-items: baseline;
-    justify-items: center;
-    align-content: stretch;
-    width: 100vw;
-    margin: 0 auto;
-}
-
-header img {
-    width: auto;
-    height: 5rem;
-    grid-column: 1;
-    padding: 5px;
-}
-header h3 {
-    grid-column: 3;
-}
-nav {
-    display: block;
-    grid-column: 4;
-}
-nav #hamBtn {
-    display: block;
-}
-nav ul {
-    display: none;
-}
-header h2 {
-    grid-column: 2;
-    font-size: 2rem;
-}
-header h3 {
-    font-size: 1.5rem;
-}
 
 /*Main css*/
 main {
@@ -161,7 +111,6 @@ main {
 .featuredV img {
     width: 25rem;
     height: fit-content;
-}
 }
 /*
 e3d7ff
