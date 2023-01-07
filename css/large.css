@@ -1,6 +1,7 @@
 /* contact us */
 header{
     display: flex;
+    padding: 10px 15px 0 0;
 }
 header a{
     text-decoration: none;
