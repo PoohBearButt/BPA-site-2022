@@ -37,7 +37,6 @@ nav{
 
 li{
     margin: 1em 1em 1em 1em; 
-    t
 }
 
 a{
@@ -83,8 +82,13 @@ p {
 
 .colourgrid{
     display: grid;
-    grid-template-rows: 1em 1em 1em 1em 1em 1em 1em;
-    grid-template-columns: auto auto auto auto auto auto;
+    /*grid-template-rows: 1em 1em 1em 1em 1em 1em 1em;  may just want to remove this grid entirely and just roll with it.*/
+    grid-template-areas: 1em 1em 1em 1em 1em 1em 1em 1em;/* no need for this. idk how to use it. */
+    /*grid-template-columns: auto auto auto auto auto auto;*/
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
     border-color: white;
     border-bottom: white;
     border-top: white;
@@ -96,9 +100,9 @@ p {
     padding: 1em 1em 1em 1em;
 }
 
-.sets{
+/*.sets{
     grid
-}
+}*/
 
 #set11{
     background-color: #6CCFF6;
