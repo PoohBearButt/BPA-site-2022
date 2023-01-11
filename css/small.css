@@ -38,10 +38,8 @@ img {
 
 ul {
     list-style: none;
-    marker: none;
 }
 li {
-    margin: 1em 1em 1em 1em;
     float: left;
 }
 
@@ -53,7 +51,6 @@ a {
 a:hover {
     color: #EBF6F4;
     background-color: #4E89AD;
-    margin: 1em 1em 1em 1em;
 }
 
 footer {
@@ -63,15 +60,10 @@ footer {
 }
 
 nav {
-    /*font-family: ;*/
     align-content: center;
     color: #EBF6F4;
 }
 
-/*a {
-    font-size: 17;
-    color:beige;
-}*/
 
 h1 {
     color: white;

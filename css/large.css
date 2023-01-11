@@ -35,3 +35,65 @@ select{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+/*Home Page*/
+main{
+    text-align: center;
+}
+header{
+    border-radius: 30px;
+    display: flex;
+}
+header img{
+    margin-left: 30px;
+}
+nav{
+    display: block;
+}
+nav a {
+    text-decoration: none;
+    color: #4E89AD;
+    font-size: 1.1rem;
+}
+nav a:hover {
+    color: #EBF6F4;
+    background-color: #4E89AD;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    margin: 15px;
+}
+header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+header h2{
+    font-size: 1.7rem;
+    text-align: center;
+}
+main{
+    max-width: 1700px;
+}
+main h2{
+    font-size: 2.5rem;
+}
+main p{
+    font-size: 1.25rem;
+}
+main h3{
+    font-size: 2rem;
+}
+.featured{
+    background-color: #4E89AD;
+    margin: 0;
+    width: 100;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.featuredV img{
+    width: 355px;
+    height: 355px;
+}
