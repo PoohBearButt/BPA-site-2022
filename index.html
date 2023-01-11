@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Dealership</title>
-    <link rel="stylesheet" href="css/small.css">
+    <title>Used Car Dealership</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/med.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (1)/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (1)/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (1)/favicon-16x16.png">
@@ -14,10 +16,13 @@
 
 <body>
     <header>
-        <img src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo">
-        <h1>Neptune's Garage</h1>
-        <h2>'Sea' the power</h2>
-        <nav>
+        <section class="headcontent">
+            <img id="logo" src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo">
+            <h1>Neptune's Garage</h1>
+            <h2>'Sea' the power</h2>
+        </section> 
+    
+        <nav class="headernav">
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -44,9 +49,12 @@
         </nav>
     </header>
     <main>
-        <h2>welcome to the best dealership under the seas!</h2>
-        <p>Take a look around to begin your journey in the depths.</p> 
-        <h3>Featured Vehicles</h3>
+        <!--<section class="welcome">-->
+            <h2>welcome to the best dealership under the seas!</h2>
+            <p>Take a look around to begin your journey in the depths.</p> 
+            <h3>Featured Vehicles</h3>
+        <!--</section>-->
+        
         <div class="featuredV">
             <img src="img/pexels-johnmark-smith-253096.jpg" alt="a yellow car in a street" loading="lazy">
             <img src="img/pexels-aaron-curtis-119435.jpg" alt="#" loading="lazy">
@@ -119,7 +127,8 @@
     </main>
     
     <footer>
-        <img src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo" width="50px" height="auto"> 
+        <img id="logo" src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo" width="50px" height="auto"> 
+        <h3>Neptune's Garage</h3>
         <nav>  
             <ul>
                 <li>
@@ -148,7 +157,6 @@
                 </li>
             </ul>
         </nav>
-        <h3>Neptune's Garage</h3>
         
         <nav class="map"> 
             <ul>
