@@ -36,6 +36,9 @@ select{
     margin-bottom: 15px;
 }
 /*Home Page*/
+body{
+    max-width: 1250px;
+}
 main{
     text-align: center;
 }
@@ -73,9 +76,6 @@ header h2{
     font-size: 1.7rem;
     text-align: center;
 }
-main{
-    max-width: 1700px;
-}
 main h2{
     font-size: 2.5rem;
 }
@@ -87,13 +87,28 @@ main h3{
 }
 .featured{
     background-color: #4E89AD;
-    margin: 0;
-    width: 100;
+    margin-left: 0;
+    width: 1250px;
+    padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 30px;
-    overflow: hidden;
 }
 .featuredV img{
     width: 355px;
     height: 355px;
+}
+.title a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    text-align: end;
+}
+.services h4{
+    text-align: center;
+    font-size: 1.2rem;
 }
