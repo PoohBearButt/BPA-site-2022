@@ -112,3 +112,20 @@ main h3{
     text-align: center;
     font-size: 1.2rem;
 }
+.reviews{
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.reviews p{
+    text-justify: distribute;
+    font-style: italic;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.quotes{
+    font-size: 40px;
+}
+#bottom{
+    text-align: right;
+}
