@@ -89,7 +89,7 @@ main h3{
 .featured{
     background-color: #4E89AD;
     margin-left: 0;
-    width: 1440px;
+    width: 100%;
     padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -101,20 +101,43 @@ main h3{
 .title a{
     text-decoration: none;
     display: inline;
+    color: rgb(255, 255, 255);
+}
+.title a:hover{
     color: black;
 }
 .services{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
-    text-align: end;
+    padding-left: 25px;
 }
 .services h4{
     text-align: center;
     font-size: 1.2rem;
 }
+.finacing{
+    padding-left: 5px;
+}
 
-/*reviews page*/
+.contactBtn{
+    background-color: #4E89AD;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    font-size: 1.1rem;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.contactBtn:hover{
+    background-color: #1C3354;
+}
+.reviewTitle{
+    background-color: #4E89AD;
+    padding: 10px;
+}
+    /*reviews page*/
 .reviews{
     text-align: left;
     margin-left: 30px;

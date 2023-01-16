@@ -47,11 +47,6 @@ a {
     font-size: 20px;
 }
 
-a:hover {
-    color:#A63045;
-    background-color:#EBF6F4;
-}
-
 footer {
     /*background-color: #A63045;*/
     display: flex;
