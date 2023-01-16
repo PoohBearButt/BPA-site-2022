@@ -43,15 +43,14 @@ body{
 main{
     text-align: center;
 }
-header{
-    border-radius: 30px;
-    display: flex;
-}
+
 header img{
     margin-left: 30px;
 }
 nav{
-    display: block;
+    width: 100%;
+    align-content: center;
+    padding-left: 275px;
 }
 nav a {
     text-decoration: none;
@@ -137,6 +136,18 @@ main h3{
     background-color: #4E89AD;
     padding: 10px;
 }
+.footernav{
+    padding-left: 0;
+    width: fit-content;
+}
+.map{
+    width: fit-content;
+    color: white;
+}
+.bpalogo{
+    padding-left: 500px;
+}
+
     /*reviews page*/
 .reviews{
     text-align: left;
