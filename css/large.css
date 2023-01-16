@@ -38,7 +38,7 @@ select{
 
 /*Home Page*/
 body{
-    max-width: 1250px;
+    max-width: 1440px;
 }
 main{
     text-align: center;
@@ -89,14 +89,14 @@ main h3{
 .featured{
     background-color: #4E89AD;
     margin-left: 0;
-    width: 1250px;
+    width: 1440px;
     padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
 .featuredV img{
-    width: 355px;
-    height: 355px;
+    width: 300px;
+    height: auto;
 }
 .title a{
     text-decoration: none;
