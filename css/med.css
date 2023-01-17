@@ -10,10 +10,10 @@ a{
 
 /*the following will need to be fixed to switch out with the smaller screens*/
 /*Large size screen*/
-@media only screen and (max-width: 64rem) {
+@media only screen and (max-width: 1440px) {
 /*Header css*/
 header {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0;
     text-align: center;

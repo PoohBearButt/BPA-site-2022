@@ -65,12 +65,11 @@ header img{
 nav{
     width: 100%;
     align-content: center;
-    padding-left: 275px;
 }
 nav a {
     text-decoration: none;
     color: #4E89AD;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 nav a:hover {
     color: #EBF6F4;
@@ -160,7 +159,7 @@ main h3{
     color: white;
 }
 .bpalogo{
-    padding-left: 500px;
+    padding: 1em 1em 1em 1em;
 }
 
     /*reviews page*/
