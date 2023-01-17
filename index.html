@@ -77,7 +77,7 @@
             
             <div class="detailing">
                 <h4>Detailing</h4>
-                <p>Cant seem to get your car spotless? Or want it to look and smell new like when you first bought it?
+                <p>Can't seem to get your car spotless? Or want it to look and smell like when you first bought it?
                 We can get your car looking spotless and smelling new like it used to.</p>
             </div>
 
@@ -87,18 +87,19 @@
             </div>
             
         </section>
-
+        <br>
         <section>
             <h2>Considering whether or not to buy a used car? Come in, or start chatting with us so that we can help you begin looking at your options!</h2>
             <h4>Email us with your questions!</h4>
             <a>neptunsgarage@ng.com</a>
             <h4>Call us at +1234567890</h4>
             <br>
-            <button class="contactBtn">Email Us!</button>
+            <button class="contactBtn">Reach out to us!</button>
             <!--insert a button to either email/start an online chat-->
         </section>
         <article>
             <section>
+                <h3 class="reviewTitle">Reviews</h3>
                 <h4>Billy Bob</h4>
                 <p>Greg was a great sales associate to work with! He took into consideration what we wanted in our first car and found several options that were the best fit for us.
                 He also spent time explaining the whole process to make the car ours and took his time answering all of our questions. Would come back to buy our second or third car from him again!
@@ -130,7 +131,7 @@
     <footer>
         <img id="logo" src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo" width="50px" height="auto"> 
         <h3>Neptune's Garage</h3>
-        <nav>  
+        <nav class="footernav">  
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -153,28 +154,21 @@
                 <li>
                     <a href="locateus.html">Locate Us</a>
                 </li>
-                <li>
-                    <a href="colourpaletts.html">Colour Palettes</a>
-                </li>
             </ul>
         </nav>
         
-        <nav class="map"> 
-            <ul>
-                <li><a class="map" href=""> &#128205; Location Map</a>
+        <div class="map"> 
+            <a class="map" href="locateus.html"> &#128205; Location Map</a>
                     <br> 123 Bikini St. #234 
                     <br> Atlantis, 98765 
                     <br> Atlantic Ocean 
-                </li>
-            </ul>
-        </nav>
-
-        <nav class="socialmedia">
-            <ul>
-                <li><a class="" href=""></a></li>
-            </ul>
-        </nav>
+        </div>
+        <img class="bpalogo" src="img/BPA_logo_black_notagline.jpg" alt="the business professionals of america logo">
     </footer>
-    <script src=""></script>
+    <script type="text/javascript">
+        document.querySelector(".contactBtn").onclick = function(){
+            location.href="contact.html"
+        }
+    </script>
 </body>
 </html>

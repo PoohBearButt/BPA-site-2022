@@ -10,9 +10,9 @@
 </head>
 <body>
     <header>
-        <img src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo">
-        <h2>Neptune's Garage</h2>
-        <h3>'Sea' the power</h3>
+        <img id="logo" src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo">
+        <h1>Neptune's Garage</h1>
+        <h2>'Sea' the savings</h2>
         <nav>
             <ul>
                 <li>
@@ -56,15 +56,16 @@
                 </select>
                 <label for="text">Description*</label>
                 <textarea type="text" id="description" name="description" required></textarea>
-                <input type="submit" onclick="alert"("Thank you for contacting us, we will get back to you as soon as possible.") value="Submit" id="submitbtn">
+                <button class="submitBtn">Reach out to us!</button>
             </fieldset>
 
         </form>
 
     </main>
     <footer>
-        <img src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo" width="50px" height="auto"> 
-        <nav>  
+        <img id="logo" src="img/seahorse.png" alt="Neptune's Garage Seahorse Logo" width="50px" height="auto"> 
+        <h3>Neptune's Garage</h3>
+        <nav class="footernav">  
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -89,14 +90,20 @@
                 </li>
             </ul>
         </nav>
-        <h3>Neptune's Garage</h3>
         
-        <nav class="map"> 
-            <ul>
-                <li><a class="map" href=""> &#128205; Location Map</a><br> 123 Bikini St. #234 <br> Atlantis, 98765 <br> Atlantic Ocean </li>
-            </ul>
-
+        <div class="map"> 
+            <a class="map" href="locateus.html"> &#128205; Location Map</a>
+                    <br> 123 Bikini St. #234 
+                    <br> Atlantis, 98765 
+                    <br> Atlantic Ocean 
+        </div>
+        <img class="bpalogo" src="img/BPA_logo_black_notagline.jpg" alt="the business professionals of america logo">
     </footer>
+    <script type="text/javascript">
+        document.querySelector(".contactBtn").onclick = function(){
+            location.href="thanks.html"
+        }
+    </script>
     
 </body>
 </html>
