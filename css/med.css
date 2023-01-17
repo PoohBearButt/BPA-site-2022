@@ -1,15 +1,10 @@
 /* Medium size screen*/
 @media only screen and (min-width: 375px) {
-    body{
-        align-items: center;
-        margin: 1em 1em 1em 1em;
-    }
-    a{
-        display: block;
-    }
-
-    .featured{
-
-    }
+  body {
+    align-items: center;
+    margin: 1em 1em 1em 1em;
+  }
+  a {
+    display: block;
+  }
 }
-
