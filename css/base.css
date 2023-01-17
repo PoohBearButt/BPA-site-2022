@@ -57,13 +57,16 @@ a {
     text-decoration: none;
     color: #EBF6F4;
     font-family: Didact Gothic;
-    font-size: 8px;
+    font-size: 15px;
 }
 
 footer {
     /*background-color: #A63045;*/
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
 }
 
 footer img {
@@ -161,6 +164,14 @@ main {
 #carsdisplay img{
     margin: 1em;
     padding: 5px;
+}
+
+ul#email{
+    text-align: left;
+    font-size: 15px;
+}
+#email:hover{
+    color: #A63045;
 }
 
 
