@@ -1,6 +1,6 @@
 /*the following will need to be fixed to switch out with the smaller screens*/
 /*Large size screen*/
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1588px) {
     /*Header css*/
     header {
         display: flex;
@@ -151,9 +151,11 @@ main h3{
 }
 .featured{
     background-color: #4E89AD;
-    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     width: 100%;
-    padding-left: 0px;
+    padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -161,24 +163,38 @@ main h3{
     width: 300px;
     height: auto;
 }
+
+#services{
+    margin: 1em;
+    padding: 15px;
+}
 .title a{
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
     display: inline;
     color: rgb(255, 255, 255);
+    font-size: 1.5em;
 }
 .title a:hover{
-    color: black;
+    color: #A63045;
 }
 .services{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
-    padding-left: 25px;
+    grid-gap: 1.5em;
 }
 .services h4{
     text-align: center;
     font-size: 1.2rem;
 }
+
+.twothirds{
+    display: flex;
+    flex-direction: row;
+}
+
 .finacing{
     padding-left: 5px;
 }
@@ -229,6 +245,11 @@ main h3{
 }
 #bottom{
     text-align: right;
+}
+
+
+.centercontent{
+    text-align: center;
 }
 
 /*thanks page*/
